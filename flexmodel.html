@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: skyblue;
+            /*display:flex;*/
+            flex-direction:column;
+            /*background-color: orange;
+            border:3px solid pink;*/
+            /*justify-content:space-between;?*/            /* arrange items left to right*/
+            align-items:center;/*arrange items top to bottom*/
+
+        }
+        .container .box{
+            height: 140px;      /*vh-view port height*/
+            width: 160px;       /*vw-view port width*/
+            background-color:red;
+            border: solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flexbox example</h1>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </div>
+</body>
+</html>
